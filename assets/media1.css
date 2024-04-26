@@ -1,0 +1,472 @@
+@media screen and (min-width: 1240px) and (max-width: 1360px) {
+  /* container */
+  .container,.key .container {
+    padding: 0 20px;
+  }
+  
+  /*people*/
+  .peopleBlocks {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* container */
+  .container {
+    padding: 0 20px;
+  }
+
+  /* header */
+  .header {
+    padding: 10px 20px;
+  }
+  .headerLeft {
+    gap: 20px;
+  }
+  .location {
+    padding-left: 20px;
+  }
+  .headerSub {
+    transform: none;
+  }
+
+  /* key */
+  .key .container {
+    padding: 0 20px;
+  }
+  .keyBlockFirst {
+    flex-direction: column;
+  }
+  .keyTitle {
+    display: block;
+  }
+  .keyArrow {
+    width: 2px;
+    height: 200px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .keyBlockSecond {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+
+  /* why */
+  .whyImg {
+    max-width: 100%;
+    width: 45%;
+  }
+  .whyText {
+    max-width: 100%;
+    width: 45%;
+  }
+
+  /* people */
+  .people {
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 30px;
+  }
+  .peopleText {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .arrows span {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* header */
+  .headerSub {
+    display: none;
+  }
+
+  /* intro */
+  .intro {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  .introInner {
+    flex-direction: column;
+    row-gap: 150px;
+  }
+  .introText {
+    max-width: 100%;
+    width: 100%;
+  }
+  .introTitle {
+    text-align: center;
+  }
+  .introSub {
+    text-align: center;
+  }
+  #formbox {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .introImg {
+    width: 100%;
+    max-width: 100%;
+  }
+  .introImg img {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .round-logo {
+    top: -135px;
+    left: 370px;
+    transform-origin: 0 250px;
+  }
+  .round-logo span {
+    transform-origin: 0 250px;
+  }
+  .introSlider {
+    margin-top: 160px;
+  }
+
+  /* invest */
+  .invest {
+    padding: 50px 0;
+  }
+  .investTitle {
+    font-size: 24px;
+  }
+  .investSub {
+    font-size: 15px;
+  }
+  .investSub1 {
+    font-size: 24px;
+  }
+
+  /* problems */
+  .problems {
+    padding-top: 50px;
+  }
+  .problems .container {
+    padding: 0 40px;
+  }
+  .problemsTitle {
+    font-size: 50px;
+  }
+  .problemsBlocks {
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .problemBlockImg {
+    width: 25%;
+  }
+  .problemBlockText {
+    width: 70%;
+  }
+  .problemBlockSub {
+    font-size: 18px;
+  }
+
+  /* key */
+  .key {
+    margin-top: 50px;
+  }
+  .keyTitle {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .keyArrow {
+    height: 100px;
+  }
+  .keySub {
+    max-width: 100%;
+  }
+  .keySub::after {
+    height: 100px;
+    bottom: -100px;
+  }
+  .keyBlockSecond {
+    margin-top: 100px;
+  }
+  .keyList {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .keyListItem {
+    width: 45%;
+  }
+  .keyListItemTitle {
+    font-size: 26px;
+  }
+
+  /* why */
+  .why {
+    padding-top: 50px;
+  }
+  .whyTitle {
+    font-size: 30px;
+  }
+  .whyInner {
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 50px;
+  }
+  .whyImg {
+    width: 70%;
+  }
+  .whyText {
+    width: 70%;
+  }
+
+  /* people */
+  .people {
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  .arrows span {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+  .peopleTitle {
+    font-size: 70px;
+  }
+  .peopleBlock {
+    width: 250px;
+  }
+  .peopleBlockTop {
+    flex-direction: column;
+  }
+  .peopleBlockSub {
+    font-size: 19px;
+    line-height: 35px;
+  }
+
+  /* statistic */
+  .statisticInner {
+    margin-top: 50px;
+  }
+
+  /* get */
+  .get {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .getTitle {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  #formbox1 {
+    margin-top: 50px;
+  }
+  .getBlocks {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* header */
+  .headerInner {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .headerLeft {
+    gap: 10px;
+  }
+  .logo img {
+    display: block;
+    max-width: 100px;
+  }
+
+  /* intro */
+  .intro {
+    padding-top: 200px;
+    padding-bottom: 30px;
+  }
+  .introInner {
+    row-gap: 115px;
+  }
+  .introTitle {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #formbox {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .formTitle p {
+    font-size: 25px;
+  }
+  .introImg img {
+    max-width: 200px;
+  }
+  .round-logo {
+    top: -85px;
+    left: 170px;
+    transform-origin: 0 150px;
+  }
+  .round-logo span {
+    transform-origin: 0 150px;
+  }
+  .introSlider {
+    margin-top: 100px;
+  }
+
+  /* invest */
+  .invest {
+    padding: 30px 0;
+  }
+  .investTitle {
+    font-size: 19px;
+  }
+  .investSub1 {
+    font-size: 19px;
+    line-height: 33px;
+  }
+
+  /* problems */
+  .problems {
+    padding-top: 30px;
+  }
+  .problems .container {
+    padding: 0 40px;
+  }
+  .problemsTitle {
+    font-size: 30px;
+  }
+  .problemsBlocks {
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .problemBlock {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .problemBlock:first-child {
+    flex-direction: column-reverse;
+  }
+  .problemBlockImg {
+    width: 75%;
+  }
+  .problemBlockText {
+    width: 100%;
+  }
+  .problemBlockSub {
+    font-size: 16px;
+  }
+
+  /* key */
+  .keyTitle {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .keyArrow {
+    height: 70px;
+  }
+  .keySub {
+    font-size: 16px;
+    padding: 20px;
+  }
+  .keySub::after {
+    height: 70px;
+    bottom: -70px;
+  }
+  .keyBlockSecond {
+    margin-top: 70px;
+  }
+  .keyBlockTitle {
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .keyListItem {
+    width: 100%;
+  }
+
+  /* why */
+  .why {
+    padding-top: 30px;
+  }
+  .whyTitle {
+    font-size: 2px;
+  }
+  .whyInner {
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 50px;
+  }
+  .whyImg {
+    width: 90%;
+  }
+  .whyText {
+    width: 90%;
+  }
+  .whySub {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  /* people */
+  .people {
+    padding: 50px 0;
+    margin-top: 30px;
+  }
+  .peopleText {
+    padding: 0 20px;
+  }
+  .peopleSub {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .peopleTitle {
+    font-size: 50px;
+  }
+  .peopleBlock {
+    width: 350px;
+    margin: 0 15px;
+  }
+  .peopleBlockTop {
+    flex-direction: column;
+  }
+  .peopleBlockSub {
+    font-size: 19px;
+    line-height: 35px;
+  }
+  .slick-track {
+    margin: 0 15px;
+  }
+
+  /* statistic */
+  .statistic {
+    margin-top: 0;
+  }
+  .statisticInner {
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    margin-top: 30px;
+  }
+  .statisticSub {
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  /* get */
+  .get {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .getTitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #formbox1 {
+    margin-top: 30px;
+  }
+  .getBlocks {
+    margin-top: 30px;
+  }
+  .getBlock img {
+    display: block;
+    max-width: 100px;
+  }
+}
